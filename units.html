@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>units</title>
+  </head>
+  <!-- most common units in CSS -->
+  <!-- 
+ps
+em- it is completely dependent on parent
+rem- 1rem = 16px
+percentage
+vw
+vh
+ -->
+  <style>
+    section {
+      border: 1px solid red;
+      width: 50vw;
+      /* font-size: 20px; */
+    }
+    main {
+      border: 1px dotted black;
+      width: 50%;
+      font-size: 1rem;
+    }
+    /* vh,vw and % units will work almost same */
+    /* rem will work according to the root size of the font size, root size of the font is 16px therefore 1rem=1*16px */
+    /* em will work according to the parents font size */
+  </style>
+  <body>
+    <section>
+      <main>welcome.</main>
+    </section>
+  </body>
+</html>
